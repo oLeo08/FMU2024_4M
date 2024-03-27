@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         editTextNumber2 = findViewById(R.id.editTextNumber2);
     }
 
-    public void somar(View View){
-        int x = Integer.parseInt(EditTextNumber.getText()toString);
-        int y = Integer.parseInt(EditTextNumber2.getText()toString);
+    public void somar(View view){
+        int x = Integer.parseInt(editTextNumber.getText() toString);
+        int y = Integer.parseInt(editTextNumber2.getText() toString);
         int soma = x + y;
         Intent Intent = new Intent(createPackageContext()this, MainActivity2.class);
         Intent.putExtra("soma", soma);

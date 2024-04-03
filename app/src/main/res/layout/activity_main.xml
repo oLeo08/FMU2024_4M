@@ -39,4 +39,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirGorjeta"
+        android:text="@string/txt_gorjeta"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="126dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
